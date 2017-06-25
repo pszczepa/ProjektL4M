@@ -12,6 +12,9 @@
     <Input Plugin="Loopback" Line="0">
      <PluginParameters MIDISendNoteOff="false"/>
     </Input>
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="103"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -2359,6 +2362,33 @@
    <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="6">0,0,1,0,2,0,3,0</FixtureVal>
   </Function>
+  <Function ID="135" Type="Scene" Name="New Scene From Live 135">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,162,1,193,2,38,3,254,4,0,5,255,6,0,7,141,8,0,9,103,10,12,11,0</FixtureVal>
+   <FixtureVal ID="1">0,157,1,171,2,25,3,110,4,0,5,255,6,0,7,141,8,0,9,103,10,12,11,0</FixtureVal>
+   <FixtureVal ID="2">0,172,1,237,2,23,3,188,4,0,5,255,6,0,7,141,8,0,9,103,10,12,11,0</FixtureVal>
+   <FixtureVal ID="3">0,169,1,137,2,28,3,210,4,0,5,255,6,0,7,141,8,0,9,103,10,12,11,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="136" Type="Scene" Name="Przerawa_przod_ladne">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,63,3,0,4,0,5,255,6,0,7,35,8,0,9,149,10,17,11,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,63,3,0,4,0,5,255,6,0,7,35,8,0,9,149,10,17,11,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,63,3,0,4,0,5,255,6,0,7,35,8,0,9,149,10,17,11,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,63,3,0,4,0,5,255,6,0,7,35,8,0,9,149,10,17,11,0</FixtureVal>
+  </Function>
+  <Function ID="137" Type="Scene" Name="New Scene From Live 137">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,2,1,149,2,58,3,56,4,0,5,255,6,0,7,255,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="1">0,2,1,149,2,58,3,56,4,0,5,255,6,0,7,255,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="2">0,2,1,149,2,58,3,56,4,0,5,255,6,0,7,255,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="3">0,2,1,149,2,58,3,56,4,0,5,255,6,0,7,255,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,0</FixtureVal>
+  </Function>
   <Function ID="138" Type="Chaser" Name="SPOTY_STROBO">
    <Speed FadeIn="0" FadeOut="0" Duration="5006"/>
    <Direction>Forward</Direction>
@@ -2450,6 +2480,36 @@
    <Step Number="7" FadeIn="0" Hold="7000" FadeOut="0">101</Step>
    <Step Number="8" FadeIn="1000" Hold="5000" FadeOut="1000">44</Step>
   </Function>
+  <Function ID="143" Type="Scene" Name="New Scene From Live 143">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,145,1,205,2,27,3,32,4,0,5,255,6,0,7,107,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="1">0,240,1,255,2,41,3,0,4,0,5,255,6,0,7,107,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="2">0,155,1,249,2,32,3,54,4,0,5,255,6,0,7,107,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,29,3,130,4,0,5,255,6,0,7,107,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="144" Type="Scene" Name="New Scene From Live 144">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,90,1,82,2,71,3,198,4,0,5,255,6,0,7,51,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="1">0,90,1,82,2,71,3,198,4,0,5,255,6,0,7,51,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="2">0,90,1,82,2,71,3,198,4,0,5,255,6,0,7,51,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="3">0,90,1,82,2,71,3,198,4,0,5,255,6,0,7,51,8,0,9,64,10,11,11,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="145" Type="Scene" Name="New Scene From Live 145">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,88,1,198,2,48,3,166,4,0,5,255,6,0,7,0,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="1">0,88,1,198,2,48,3,166,4,0,5,255,6,0,7,0,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="2">0,103,1,106,2,62,3,186,4,0,5,255,6,0,7,0,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="3">0,108,1,128,2,47,3,120,4,0,5,255,6,0,7,0,8,0,9,0,10,0,11,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,0</FixtureVal>
+  </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -2498,7 +2558,7 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="159"/>
+    <Pan Position="170"/>
     <Tilt Position="54"/>
    </XYPad>
    <XYPad Caption="XY Pad" ID="5" InvertedAppearance="0">
@@ -2514,9 +2574,9 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Window hMin="90" hMax="243" vMin="0" vMax="141"/>
-    <Pan Position="193"/>
-    <Tilt Position="71"/>
+    <Window hMin="233" hMax="243" vMin="0" vMax="41"/>
+    <Pan Position="241"/>
+    <Tilt Position="41"/>
    </XYPad>
    <XYPad Caption="XY Pad" ID="6" InvertedAppearance="0">
     <WindowState Visible="True" X="1260" Y="630" Width="230" Height="230"/>
@@ -2531,9 +2591,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Window hMin="42" hMax="256" vMin="0" vMax="179"/>
-    <Pan Position="184"/>
-    <Tilt Position="74"/>
+    <Pan Position="103"/>
+    <Tilt Position="62"/>
    </XYPad>
    <XYPad Caption="XY Pad" ID="7" InvertedAppearance="0">
     <WindowState Visible="True" X="1550" Y="630" Width="230" Height="230"/>
@@ -2548,8 +2607,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="179"/>
-    <Tilt Position="71"/>
+    <Pan Position="108"/>
+    <Tilt Position="47"/>
    </XYPad>
    <Button Caption="Spot1ON" ID="8" Icon="">
     <WindowState Visible="True" X="1490" Y="400" Width="60" Height="50"/>
@@ -2616,9 +2675,9 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Window hMin="114" hMax="256" vMin="4" vMax="125"/>
-    <Pan Position="189"/>
-    <Tilt Position="64"/>
+    <Window hMin="0" hMax="256" vMin="4" vMax="256"/>
+    <Pan Position="145"/>
+    <Tilt Position="27"/>
    </XYPad>
    <Clock Type="Clock" Caption="" ID="4">
     <WindowState Visible="True" X="0" Y="0" Width="315" Height="95"/>
@@ -3201,7 +3260,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Mixing>False</Mixing>
     <Collapsed>False</Collapsed>
-    <Disabled>True</Disabled>
+    <Disabled>False</Disabled>
     <Button Caption="New Scene From Live 91" ID="37" Icon="">
      <WindowState Visible="True" X="5" Y="45" Width="90" Height="80"/>
      <Appearance>
@@ -3244,7 +3303,7 @@
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 80" ID="80" Icon="">
+    <Button Caption="New Scene From Live 144" ID="80" Icon="">
      <WindowState Visible="True" X="195" Y="215" Width="90" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -3253,12 +3312,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="144"/>
      <Action>Toggle</Action>
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 81" ID="81" Icon="">
+    <Button Caption="New Scene From Live 143" ID="81" Icon="">
      <WindowState Visible="True" X="100" Y="215" Width="90" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -3267,12 +3326,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="143"/>
      <Action>Toggle</Action>
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 82" ID="82" Icon="">
+    <Button Caption="New Scene From Live 137" ID="82" Icon="">
      <WindowState Visible="True" X="5" Y="215" Width="90" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -3281,12 +3340,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="137"/>
      <Action>Toggle</Action>
-     <Key>ퟀ</Key>
+     <Key>1</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 83" ID="83" Icon="">
+    <Button Caption="Przerawa_przod_ladne" ID="83" Icon="">
      <WindowState Visible="True" X="100" Y="130" Width="90" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -3295,12 +3354,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="136"/>
      <Action>Toggle</Action>
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 84" ID="84" Icon="">
+    <Button Caption="New Scene From Live 135" ID="84" Icon="">
      <WindowState Visible="True" X="5" Y="130" Width="90" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -3309,7 +3368,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="135"/>
      <Action>Toggle</Action>
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
@@ -3328,7 +3387,7 @@
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Button 36" ID="36" Icon="">
+    <Button Caption="New Scene From Live 145" ID="36" Icon="">
      <WindowState Visible="True" X="100" Y="305" Width="90" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -3337,7 +3396,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="145"/>
      <Action>Toggle</Action>
      <Key>ퟀ</Key>
      <Intensity Adjust="False">100</Intensity>
@@ -3371,7 +3430,7 @@
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
-    <Disabled>True</Disabled>
+    <Disabled>False</Disabled>
     <Slider Caption="DIMMER" ID="32" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="15" Y="50" Width="60" Height="250"/>
      <Appearance>
@@ -3507,7 +3566,7 @@
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
-    <Disabled>True</Disabled>
+    <Disabled>False</Disabled>
     <SoloFrame Caption="" ID="67">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -3523,7 +3582,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Button Caption="THE" ID="68" Icon="">
       <WindowState Visible="True" X="115" Y="45" Width="50" Height="50"/>
       <Appearance>
